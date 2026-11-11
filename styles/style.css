@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Убираем горизонтальную прокрутку */
 }
 
 .page {
@@ -197,6 +197,7 @@ body {
   margin: 0;
 }
 
+/* Адаптив 768px */
 @media (min-width: 768px) {
   :root {
     --gap-mobile: 20px;
@@ -229,6 +230,7 @@ body {
   }
 }
 
+/* Адаптив 1024px */
 @media (min-width: 1024px) {
   .section {
     display: grid;
