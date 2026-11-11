@@ -383,7 +383,6 @@
   }
 }
 
-/*прям большой*/
 @media (width >= 1024px) {
 
   .rec_empty {
@@ -431,7 +430,6 @@
     margin-top: 20px;
   }
 
-  /* МЕНЮ  w3 */
   .header__theme-menu {
     height: 100%;
     display: flex;
@@ -440,7 +438,6 @@
     align-self: start;
   }
 
-  /* меню горизонтально */
   .header__theme-menu-list {
     grid-auto-flow: column;
   }
@@ -484,15 +481,12 @@
     column-gap: 20px;
   }
 
- 
+  /*
   .footer {
     margin-top: 10px;
-  }
+  }*/
 
   .footer_title {
-margin-top: 50px;
+    margin-top: 50px;
   }
-
-
-
 }
